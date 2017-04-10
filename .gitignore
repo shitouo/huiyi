@@ -1,0 +1,25 @@
+#webstorm 默认项目文件
+.idea
+
+#第三方node.js模块，各环境通过 npm install 安装
+node_modules/
+
+#文章静态html存放目录
+static/
+
+#日志文件
+logs/
+*.logs
+*.log
+
+#gulp 打包临时目录及目标目录，各环境通过 gulp 打包生成
+public/temporary
+public/dist
+views/temporary
+views/dist
+
+#默认配置文件，根据环境变量读取相应环境配置文件
+config_default.js
+
+#测试文件夹
+test
